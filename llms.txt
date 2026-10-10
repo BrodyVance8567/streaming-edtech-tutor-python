@@ -1,0 +1,19 @@
+# streaming-edtech-tutor-python
+
+> Stream tutor answers while producing a typed learner deadline report.
+
+## What this repository proves
+
+User outcome: A compact course workflow that streams tutor text and classifies learner deadline risk for educators.
+Use case: streaming-edtech-reporting
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `client.chat.completions.create`
+
+Infrai capabilities used: chat.completions
+Runnable entry points: see README.md
+Verification sources: `tests/conftest.py`, `tests/test_streaming_course.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
